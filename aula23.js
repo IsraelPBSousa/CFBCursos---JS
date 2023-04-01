@@ -1,4 +1,8 @@
 function soma(...valores){
-    return valores.length
+    let res=0
+    for(let v of valores){
+    res+=v
+    }
+    return res
 }
-console.log(soma(10,5,2,15,8))
+console.log(soma(10,5))
